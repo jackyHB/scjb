@@ -4,7 +4,7 @@
 多账号@隔开 
 如需换话费 下载太太乐餐饮服务APP积分兑换话费
 如果没库存了 自己隔天再看
-优化者：亿慧通
+优化者：H.
 ==========
 青龙变量
 ==========
@@ -48,7 +48,7 @@ var timestamp = Math.round(new Date().getTime()/1000).toString();
           $.index = i + 1;
         
           console.log(`\n开始【太太乐${$.index}】`)
-          console.log(`第一次注册必须先登录一次小程序绑定微信然后用接口\n不会抓包的手残智力障碍的接口获取token\nhttp://47.101.146.160/ttl.php?zh=手机号码&mm=密码\n如需换话费 下载太太乐APP积分兑换话费\n如果没库存了 自己隔天再看`)
+          console.log(`第一次注册必须先登录一次小程序绑定微信然后用接口\n不会抓包的手残智力障碍的接口获取token\n https://www.ttljf.com/ttl_site/user.do?username=账号&password=密码&device_brand=apple&device_model=iPhone11,8&device_uuid=&device_version=13.5&mthd=login&platform=ios&sign=\n如需换话费 下载太太乐APP积分兑换话费\n如果没库存了 自己隔天再看`)
          
 await sign()
 await blog()
